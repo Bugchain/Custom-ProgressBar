@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Progressbar 1"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/progressbar_height"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progress="66"
+        android:progressDrawable="@drawable/custom_progressbar_1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Progressbar 2"
+        android:layout_marginTop="8dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/progressbar_height"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progress="45"
+        android:progressDrawable="@drawable/custom_progressbar_2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Progressbar 3"
+        android:layout_marginTop="8dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/progressbar_height"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progress="80"
+        android:progressDrawable="@drawable/custom_progressbar_3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Progressbar 4"
+        android:layout_marginTop="8dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/progressbar_height"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progress="35"
+        android:progressDrawable="@drawable/custom_progressbar_4"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Progressbar 5"
+        android:layout_marginTop="8dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <ProgressBar
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progress="95"
+        android:max="100"
+        android:secondaryProgress="100"
+        android:indeterminate="false"
+        android:progressDrawable="@drawable/custom_progressbar_5"/>
+
+</LinearLayout>
